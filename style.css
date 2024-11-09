@@ -236,18 +236,7 @@ input[type="submit"]:active {
         font-size: large;
     }
 
-    .container {
-        display: ;
-        background: ;
-        padding: 30px;
-        border-radius: 8px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        width: 90%;
-        height: 50%;
-        text-align: center;
-    }
-
-    .container {
+    .información {
         display: ;
         background: ;
         padding: 30px;
@@ -278,7 +267,7 @@ input[type="submit"]:active {
         font-size: large;
     }
 
-    .container {
+    .información {
         display: flex;
         background: ;
         padding: 30px;
@@ -309,7 +298,7 @@ input[type="submit"]:active {
         font-size: x-large;
     }
 
-    .container {
+    .información {
         display: flex;
         background: ;
         padding: 30px;
