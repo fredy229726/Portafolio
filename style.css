@@ -20,7 +20,7 @@ header {
 }
 
 header:hover {
-    background-color: rgba(85, 85, 85, 0.8); 
+    background-color: ; 
 }
        
 nav ul {
@@ -149,7 +149,7 @@ footer {
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     height: 100%;
     text-align: left;
 }
