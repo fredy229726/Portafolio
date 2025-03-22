@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://i.pinimg.com/736x/93/bf/84/93bf84e7191774953cf89994a88c2565.jpg');
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-escritorio-moderno-vector-diseno-azul-geometrico_53876-135923.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,7 +20,7 @@ header {
 }
 
 header:hover {
-    background-color: ; 
+    background-color: rgba(85, 85, 85, 0.8); 
 }
        
 nav ul {
@@ -53,11 +53,14 @@ nav ul li a:hover {
     flex: 1;
     text-align: center;
     position: static;
+    transform: perspective(500px)
+               translateY(8px)
+               rotateY('45deg');
 }
 
 #logo img {
     width: auto;
-    height: 450px;
+    height: 420px;
     border-radius: 20px;
 }
 
@@ -70,7 +73,21 @@ nav ul li a:hover {
     width: auto;/* Ajusta el tamaño máximo de los logos según sea necesario */
     height: 200px;
     object-fit: cover;
-}       
+} 
+
+#foto {
+    width: auto;
+    height: 480px;
+    flex: 1;
+    text-align: center;
+    position: static;
+    background-color: rgba(17, 196, 219, 0.856);
+    border:  groove 1em gold;
+    border-radius: 40px 10px;
+    transform: perspective(500px)
+               translateY(8px)
+               rotateY(25deg);
+}
 
 main {
     padding: 2%;
@@ -81,7 +98,7 @@ section {
     background-color: ; 
     border-radius: 10px;
     padding: 2%;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: ;
     transition: transform 0.3s ease; 
 }
         
@@ -91,7 +108,7 @@ section:hover {
         
 section h2 {
     font-size: xx-large;
-    color: #333;
+    color: white;
     border-bottom: ;
     padding-bottom: 1%;
     margin-bottom: 2%;
@@ -99,7 +116,7 @@ section h2 {
         
 section p {
     font-size: x-large;
-    color: black;
+    color: white;
 }
         
 footer {
@@ -149,13 +166,25 @@ footer {
 }
 
 .container {
-    width: 100%;
-    height: 100%;
-    text-align: left;
+    display: flex;
+    background: ;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: ;
+    width: 90%;
+    height: 90%;
+    text-align: center;
 }
 
-.información {
+.contenedor {
     display: ;
+    background: ;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: ;
+    width: 70%;
+    height: 70%;
+    text-align: left;
 }
 
 details {
@@ -164,6 +193,7 @@ details {
 
 summary {
     font-size: x-large;
+    color: white;
     font-weight: bold;
     cursor: pointer;
 }
@@ -190,6 +220,23 @@ th, td {
 
 th {
     background-color: ;
+}
+
+.field {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.field label {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.field input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 input[type="submit"] {
@@ -237,21 +284,23 @@ input[type="submit"]:active {
         font-size: large;
     }
 
-    .información {
+    section {
+        margin-bottom: 3%;
+        border-radius: 10px;
+        padding: 2%;
+        box-shadow: ;
+        transition: transform 0.3s ease; 
+    }
+
+    .container {
         display: ;
         background: ;
         padding: 30px;
         border-radius: 8px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: ;
         width: 90%;
-        height: 50%;
-        text-align: left;
-    }
-
-    .container {
-        width: 100%;
-        height: 100%;
-        text-align: left;
+        height: 90%;
+        text-align: center;
     }
 
     #logo {
@@ -265,6 +314,17 @@ input[type="submit"]:active {
         height: 200px;
         border-radius: 20px;
     }
+
+    #foto {
+        width: auto;
+        height: 260px;
+        flex: 1;
+        text-align: center;
+        position: static;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
+    }
 }
 
 /* Estilos para pantallas de entre 601 y 1200 píxeles de ancho */
@@ -274,21 +334,15 @@ input[type="submit"]:active {
         font-size: large;
     }
 
-    .información {
+    .container {
         display: flex;
         background: ;
         padding: 30px;
         border-radius: 8px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: ;
         width: 90%;
         height: 90%;
-        text-align: left;
-    }
-
-    .container {
-        width: 50%;
-        height: 50%;
-        text-align: left;
+        text-align: center;
     }
 
     #logo {
@@ -302,6 +356,17 @@ input[type="submit"]:active {
         height: 380px;
         border-radius: 20px;
     }
+
+    #foto {
+        width: auto;
+        height: 440px;
+        flex: 1;
+        text-align: center;
+        position: static;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
+    }
 }
 
 /* Estilos para pantallas de más de 1200 píxeles de ancho */
@@ -311,21 +376,15 @@ input[type="submit"]:active {
         font-size: x-large;
     }
 
-    .información {
+    .container {
         display: flex;
         background: ;
         padding: 30px;
         border-radius: 8px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: ;
         width: 90%;
         height: 90%;
-        text-align: left;
-    }
-
-    .container {
-        width: 50%;
-        height: 50%;
-        text-align: left;
+        text-align: center;
     }
 
     #logo {
@@ -338,5 +397,16 @@ input[type="submit"]:active {
         width: auto;
         height: 450px;
         border-radius: 20px;
+    }
+
+    #foto {
+        width: auto;
+        height: 480px;
+        flex: 1;
+        text-align: center;
+        position: static;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
     }
 }
