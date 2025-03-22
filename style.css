@@ -292,6 +292,17 @@ input[type="submit"]:active {
         transition: transform 0.3s ease; 
     }
 
+    .contenedor {
+        display: ;
+        background: ;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: ;
+        width: 90%;
+        height: 50%;
+        text-align: left;
+    }
+
     .container {
         display: ;
         background: ;
@@ -335,7 +346,7 @@ input[type="submit"]:active {
     }
 
     .container {
-        display: flex;
+        display: ;
         background: ;
         padding: 30px;
         border-radius: 8px;
