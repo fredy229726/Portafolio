@@ -293,6 +293,12 @@ input[type="submit"]:active {
         flex: 1;
         text-align: center;
         position: ;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
+        transform: perspective(500px)
+                   translateY(8px)
+                   rotateY(10deg);
     }
 
     #logo img {
@@ -326,9 +332,10 @@ input[type="submit"]:active {
         padding: 30px;
         border-radius: 8px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        width: 90%;
+        width: 70%;
         height: 90%;
         text-align: left;
+        gap: 10px;
     }
 
     .container {
@@ -341,6 +348,12 @@ input[type="submit"]:active {
         flex: 1;
         text-align: center;
         position: ;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
+        transform: perspective(500px)
+                   translateY(8px)
+                   rotateY(15deg);
     }
 
     #logo img {
@@ -374,9 +387,10 @@ input[type="submit"]:active {
         padding: 30px;
         border-radius: 8px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        width: 90%;
+        width: 70%;
         height: 90%;
         text-align: left;
+        gap: 10px;
     }
 
     .container {
@@ -389,6 +403,12 @@ input[type="submit"]:active {
         flex: 1;
         text-align: center;
         position: ;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
+        transform: perspective(500px)
+                   translateY(8px)
+                   rotateY(15deg);
     }
 
     #logo img {
