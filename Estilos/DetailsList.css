@@ -1,0 +1,14 @@
+details {
+    margin-bottom: 10px;
+}
+
+summary {
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+details[open] summary {
+    color: blue;
+}

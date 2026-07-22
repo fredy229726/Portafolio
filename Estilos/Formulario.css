@@ -1,0 +1,43 @@
+.field {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.field label {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.field input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    display: block;
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: #FF1C1C; /* Rojo Pokéball */
+    color: white;
+    border: 2px solid #000; /* Borde negro para contrastar */
+    border-radius: 25px; /* Forma circular */
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive; /* Fuente estilo retro */
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Efecto al pasar el ratón */
+input[type="submit"]:hover {
+    background-color: #FFDE00; /* Amarillo Pikachu */
+    color: black; /* Contraste de texto */
+    transform: scale(1.1); /* Agrandar ligeramente */
+}
+
+/* Efecto al presionar el botón */
+input[type="submit"]:active {
+    background-color: #3B4CCA; /* Azul característico del logo */
+    transform: scale(0.95); /* Reducir un poco al hacer clic */
+}

@@ -1,0 +1,67 @@
+/*Estilo para mobiles*/
+@media (max-width: 720px) {
+    body {
+        font-family: Arial, sans-serif;
+        font-size: large;
+        background-image: url('../bg1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+        scroll-behavior: smooth; 
+    }
+
+    .información {
+        display: flex;
+        background: ;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: ;
+        width: 90%;
+        height: 50%;
+        text-align: left;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        text-align: left;
+    }
+
+    #logo {
+        display: flex;
+        width: 50%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        position: ;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
+        transform: perspective(500px)
+                   translateY(8px)
+                   rotateY(10deg);
+    }
+
+    #logo img {
+        width: auto;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    #foto {
+        width: auto;
+        height: 260px;
+        flex: 1;
+        text-align: center;
+        position: static;
+        background-color: rgba(17, 196, 219, 0.856);
+        border:  groove 1em gold;
+        border-radius: 40px 10px;
+    }
+}
