@@ -35,3 +35,11 @@ section p {
     font-size: x-large;
     color: white;
 }
+
+#container a{
+    color: white;
+}
+
+#container a:hover {
+    color: gold;
+}
