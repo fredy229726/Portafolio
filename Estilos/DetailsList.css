@@ -1,5 +1,9 @@
 details {
     margin-bottom: 10px;
+    border: 1px rgba(7, 163, 242, 0.733);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 5px rgb(54, 185, 205);
 }
 
 summary {
