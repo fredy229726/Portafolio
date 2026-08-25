@@ -49,3 +49,25 @@ section p {
     height: 70%;
     text-align: left;
 }
+
+#logo {
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(17, 196, 219, 0.856);
+    border:  groove 1em gold;
+    border-radius: 40px 10px;
+    transform: perspective(500px)
+        translateY(8px)
+        rotateY(15deg);
+}
+
+#logo img {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
