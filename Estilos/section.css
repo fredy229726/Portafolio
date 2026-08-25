@@ -43,3 +43,9 @@ section p {
 #container a:hover {
     color: gold;
 }
+
+.container {
+    width: 100%;
+    height: 70%;
+    text-align: left;
+}
